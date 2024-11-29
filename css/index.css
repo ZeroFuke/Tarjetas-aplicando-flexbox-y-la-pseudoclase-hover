@@ -1,0 +1,153 @@
+body{
+    padding: 0%;
+    margin: 0%;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 60px;
+}
+
+section{
+    width: 250px;
+    box-shadow: 5px 5px 30px grey ;
+}
+
+.gris{
+    color: #5d5b5b;
+}
+
+.cadena{
+    text-align: center;
+    .a{
+        color:goldenrod;
+        font-weight: bolder;
+        font-size: 20px;
+    }
+    
+    .b{
+        color:aquamarine;
+        font-weight: bolder;
+        font-size: 20px;
+    }
+    .c{
+        color: red;
+        font-weight: bolder;
+        font-size: 20px;
+    }
+} 
+
+.abajo{
+    padding-top: 25px;
+    font-weight: bolder;
+}
+
+.fondo-foto{
+    width: 180px;
+    height: 115px;
+    margin: 25px;
+    background-color: gainsboro;
+    padding-left: 15px;
+    
+}
+
+.centar{
+    display: flex;
+    position: relative;
+    bottom: 20px;
+}
+
+img{
+    width: 175px;
+    height: auto;
+    justify-content:start;
+    align-items: start;
+}
+
+.pago1{
+    background-color: goldenrod;
+    display: flex;
+    justify-content: center;
+    color: white;
+    
+}
+
+.pago2{
+    background-color:aquamarine;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.pago3{
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.ranking{
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+
+.letras{
+font-size: 12px;
+}
+
+.estrellas{
+    font-size: 15px;
+    color: #bbb;
+}
+
+.amarillo{
+    color: gold;
+}
+
+button{
+    all: unset;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    cursor: pointer; 
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.button1{
+    background-color: gold;
+    color: white;
+}
+.button2{
+    background-color: aquamarine;
+    color: white;
+}
+.button3{
+    background-color: red;
+    color: white;
+    
+}
+
+button{
+    transition: color 0.3s;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+:has(.button1:hover) .cambio1{
+    color: black;
+}
+
+:has(.button2:hover) .cambio2{
+    color: black;
+}
+
+:has(.button3:hover) .cambio3{
+    color: black;
+}
